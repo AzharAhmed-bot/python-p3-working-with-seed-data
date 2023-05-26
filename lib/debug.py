@@ -4,6 +4,7 @@ from faker import Faker
 import random
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy import func,desc
 
 from models import Game
 
@@ -17,3 +18,5 @@ if __name__ == '__main__':
 
 
     import ipdb; ipdb.set_trace()
+
+
